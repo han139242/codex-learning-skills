@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程作业交付与验收"
+  short_description: "按老师要求完成图文报告，复核AI改稿、真实计算与逐页排版，整理正式交付"
+  default_prompt: "使用 $hhy-coursework-delivery，结合老师要求与现有材料完成或精修作业，核对结果、逐页检查排版并整理最终文件。"

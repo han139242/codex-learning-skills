@@ -1,0 +1,4 @@
+interface:
+  display_name: "学习理解与迁移辅导"
+  short_description: "用小例子、代码与论文段落逐步讲解，归纳重点和易错点，按需批改练习"
+  default_prompt: "使用 $hhy-learning-coach 从我当前的材料继续讲，每次讲一小段，最后总结重点和易错点。"
