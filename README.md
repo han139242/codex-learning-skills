@@ -7,6 +7,15 @@
 | [hhy-learning-coach](skills/hhy-learning-coach/SKILL.md) | 期末复习、代码和张量推导、英文论文段落、检查自己是否能独立解释或做变式 | 用 `$hhy-learning-coach` 从上次的决策树例题继续，按我的课件讲，最后说重点和易错点。 |
 | [hhy-coursework-delivery](skills/hhy-coursework-delivery/SKILL.md) | 对照老师要求完成、复核报告与配套代码，核实数据和版式 | 用 `$hhy-coursework-delivery` 对照要求复查这份报告，保留原稿，核对数据与交付格式。 |
 
+## 从一个小任务开始
+
+| 想要的结果 | 先给 Codex 什么 | 这次可以检查什么 |
+| --- | --- | --- |
+| 自己会做题或读懂代码 | 一道课堂例题、课件范围、你已经做出的步骤 | 能否解释为什么这样做，或者按你的要求完成一道变式 |
+| 作业材料齐全、结论可核对 | 老师要求、当前报告、能重现结果的数据和代码 | 是否逐条覆盖要求，正文与原始结果是否一致，配套文件能否使用 |
+
+课程交付辅助脚本可以逐项使用。结构审计用于查看 DOCX 内容，页面比较用于定位变化，最终版式在 Word 或 PDF 中查看。两个技能的固定版和更新记录见 [Releases](https://github.com/han139242/codex-learning-skills/releases)。
+
 ## 安装
 
 克隆仓库后，在根目录运行以下 PowerShell 命令。一次装一个技能。已有同名目录时，先比较内容，再自行备份并更新旧副本。重开 Codex 对话后输入技能名。
